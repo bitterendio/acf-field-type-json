@@ -17,6 +17,12 @@ JSON field for Advanced Custom Fields.
     // Use the values
     echo $value->something;
 
+### Pass to javascript variable
+
+    <script type="text/javascript">
+      window.my_acf_name = <?php echo get_field('json_field') ?>;
+    </script>
+
 ---
 
 ### Description
