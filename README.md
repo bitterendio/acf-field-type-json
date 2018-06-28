@@ -6,9 +6,13 @@ JSON field for Advanced Custom Fields.
 
 ## Usage
 
-### Get decoded JSON
+### Get encoded JSON
 
-    $value = get_field('json_field');
+    $json = get_field('json_field');
+
+### Decode json
+
+    $value = json_decode($json);
 
 ---
 
