@@ -4,12 +4,6 @@ JSON field for Advanced Custom Fields.
 
 ![Preview Field in Wordpress admin](https://raw.githubusercontent.com/bitterendio/acf-field-type-json/master/screenshot.png)
 
-**Supports**
-
-- Areas - Circles - Polygons
-- Routes
-- Custom POIs
-
 ## Usage
 
 ### Get decoded JSON
