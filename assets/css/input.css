@@ -1,0 +1,10 @@
+.acf-field-json-row {
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+	clear: both;
+}
+.acf-field-json-content {
+	width: 100%;
+	float: left;
+}

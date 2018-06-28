@@ -1,0 +1,28 @@
+{
+  "name": "bitterend/acf-field-type-json",
+  "type": "wordpress-plugin",
+  "license": "MIT",
+  "description": "Advanced Custom Fields - JSON",
+  "homepage": "https://bitterend.io",
+  "authors": [
+    {
+      "name": "bitterend",
+      "email": "info@bitterend.io",
+      "homepage": "https://bitterend.io"
+    },
+    {
+      "name": "rozklad",
+      "email": "jan.rozklad@gmail.com",
+      "homepage": "https://rozklad.me"
+    },
+    {
+      "name": "mattluk",
+      "email": "matejlukas12@gmail.com"
+    }
+  ],
+  "keywords": ["wordpress", "acf"],
+  "require": {
+    "php": ">=5.4.0",
+    "composer/installers": "~1.0"
+  }
+}
