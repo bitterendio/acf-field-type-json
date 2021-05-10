@@ -25,7 +25,7 @@
           .val(JSON.stringify(json));
       }
     };
-    var editor = new JSONEditor($el[0], options);
+    var editor = new JSONEditor($el.find('.acf-input')[0], options);
 
     // set json
     var json = $el.find("[data-acf-value]").data("acf-value");
