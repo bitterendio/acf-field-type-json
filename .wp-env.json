@@ -1,0 +1,14 @@
+{
+  "plugins": ["."],
+  "config": {
+    "WP_DEBUG": true,
+    "WP_DEBUG_LOG": true,
+    "WP_DEBUG_DISPLAY": false
+  },
+  "port": 4242,
+  "env": {
+    "tests": {
+      "port": 4013
+    }
+  }
+}

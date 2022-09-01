@@ -1,0 +1,1 @@
+{"version":1,"defects":{"AcfFieldTypeJson\\Tests\\Unit\\EnvironmentTest::testAutoloaderWorks":4},"times":{"AcfFieldTypeJson\\Tests\\Unit\\EnvironmentTest::testSomething":0.001,"AcfFieldTypeJson\\Tests\\Unit\\EnvironmentTest::testAutoloaderWorks":0,"AcfFieldTypeJson\\Tests\\Unit\\EnvironmentTest::testMockWordPressFunction":0.006}}

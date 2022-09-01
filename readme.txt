@@ -27,7 +27,10 @@ This ACF field type is compatible with:
 
 == Changelog ==
 
-= 1.0.1 =
+= 0.4.0 = (9/2022)
+* Testing environment
+
+= 0.3.1 =
 * Fix label placement issue (#2)
 
 = 0.1.0 =

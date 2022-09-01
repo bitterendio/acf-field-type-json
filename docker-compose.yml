@@ -1,0 +1,22 @@
+# Docker-compose file for running integration tests
+version: "3.7"
+services:
+  database:
+    container_name: database
+    environment:
+      MYSQL_ROOT_PASSWORD: examplepass
+    image: mysql:8.0
+
+  phpunit:
+    command:
+      - bash
+    container_name: phpunit
+    depends_on:
+      - database
+    environment:
+      DATABASE_PASSWORD: examplepass
+    image: futureys/phpunit-wordpress-plugin
+    stdin_open: true
+    tty: true
+    volumes:
+      - .:/plugin
