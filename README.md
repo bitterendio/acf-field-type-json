@@ -42,6 +42,29 @@ This ACF field type is compatible with:
 3.  Create a new field via ACF and select the JSON type
 4.  Please refer to the description for more info regarding the field type settings
 
+### Tests
+
+#### Unit Tests
+
+```sh
+composer run-script test
+```
+
+#### Integration Tests
+
+With local setup
+
+```sh
+composer run-script test:wordpress
+```
+
+Using docker
+```sh
+docker-compose run phpunit
+composer install
+composer:test:wordpress
+```
+
 ### Changelog
 
 Please see `readme.txt` for changelog
