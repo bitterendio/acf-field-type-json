@@ -72,3 +72,8 @@ Please see `readme.txt` for changelog
 ## Credits
 
 This ACF field relies heavily on great package https://github.com/josdejong/jsoneditor
+
+
+## Sponsors
+
+This project is sponsored by Browserstack.
